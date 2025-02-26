@@ -2,26 +2,35 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
-## Development server
+![Design preview for Graphs-App](./desktop-preview.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+> Json-Server was implemented to create a fake REST API, for development and testing purposes.
 
-## Code scaffolding
+## Implemented Dependencies: 
+* json-server
+```
+npm i json-server
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* ng2-charts
+```
+npm i --save ng2-charts@3.0.6
+```
 
-## Build
+* chart.js
+```
+npm i --save chart.js@3.7.0
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Note: 
+### Install dependencies for running this project
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Levantar el backend y ejecutar la app
+```
+npm run backend
+ng serve -o
+```
