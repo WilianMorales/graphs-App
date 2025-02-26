@@ -1,1 +1,20 @@
-<p>double-chart works!</p>
+<h1>Gráficas Dobles</h1>
+<hr>
+
+<div class="row">
+  <div class="col-md-6">
+    <app-bar [data]="proveedoresData" />
+  </div>
+
+  <div class="col-md-6">
+    <app-bar [line]="true" [data]="productoData" />
+  </div>
+
+  <div class="col-md-6">
+    <app-bar [horizontal]="true" [data]="clientesData" />
+  </div>
+
+  <div class="col-md-6">
+    <app-bar [line]="true" [data]="clientesData" />
+  </div>
+</div>
